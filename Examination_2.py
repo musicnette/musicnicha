@@ -6,7 +6,9 @@
 
 
 # นักเรียนเขียนโค้ดต่อจากบรรทัดนี้
-pay=int(input("จำนวนเงินที่จ่าย"))
-price=int(input("ราคาสินค้า"))
-result= pay-price
-print("จำนวนเงินทอน",result)
+temp=float(input("อุณหภูมิร่างกาย"))
+
+if temp>37.5:
+  print("Fever")
+elif temp<37.5
+  print("Normal")
