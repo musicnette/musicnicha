@@ -8,6 +8,7 @@
 # นักเรียนเขียนโค้ดต่อจากบรรทัดนี้
 price=float(input("ราคาสินค้าเต็ม"))
 is_member=int(input("กรอกสถานะสมาชิก1เป็น0ไม่เป็น"))
+
 if is_member==1:
   result=price*10/100
   print("ราคาสินค้าสุทธิ",result)
