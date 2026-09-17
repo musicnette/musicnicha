@@ -6,4 +6,7 @@
 
 
 # นักเรียนเขียนโค้ดต่อจากบรรทัดนี้
-temp = float(input())
+pay=int(input("จำนวนเงินที่จ่าย"))
+price=int(input("ราคาสินค้า"))
+result= pay-price
+print("จำนวนเงินทอน",result)
